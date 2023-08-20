@@ -242,17 +242,13 @@ body {
   overflow-scrolling: touch;
   font-family: "Signika Negative", sans-serif, Arial;
 }
-.container {
-  overflow: hidden;
-  width: 500vw;
-}
+
 .panel {
   min-width: 100vw;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-shrink: 1;
   font-weight: 600;
   font-size: 1.5em;
   text-align: center;
@@ -268,9 +264,9 @@ p,
 li {
   max-width: 800px;
 }
+
 body {
   display: flex;
-  overflow: hidden;
 }
 
 .block {

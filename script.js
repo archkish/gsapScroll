@@ -4,11 +4,11 @@ let sections = gsap.utils.toArray(".panel");
 
 let scroll = gsap.to(sections, {
   xPercent: -100 * (sections.length - 1),
-  ease: "none",
+  ease: "linear",
   scrollTrigger: {
     trigger: "body",
     pin: true,
-    scrub: 1,
+    scrub: 0.5,
     snap: 1 / (sections.length - 1),
     end: "+=10000",
   },
@@ -26,7 +26,7 @@ gsap
     },
   })
   .to(".block", {
-    rotation: 180 * 5,
+    rotation: 148 * 4,
     duration: 1,
     ease: "linear",
   });
